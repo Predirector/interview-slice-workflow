@@ -64,7 +64,6 @@ class Workflow(unittest.TestCase):
  def test_missing_media_no_fallback(self):
   with tempfile.TemporaryDirectory() as t:
    dst=Path(t)/'code';p=subprocess.run([sys.executable,str(SKILL/'scripts/init_project.py'),str(dst),'--media-root',str(Path(t)/'absent')],capture_output=True);self.assertNotEqual(p.returncode,0);self.assertFalse(dst.exists())
-if __name__=='__main__':unittest.main()
 
 class AssetsAndCleanup(unittest.TestCase):
  def test_danmaku_zero_duration(self):
@@ -103,3 +102,13 @@ class TitlesAndBranches(unittest.TestCase):
   d=copy.deepcopy(BASE);d['title']='../outside';self.assertRaises(ValueError,validate,d,False)
  def test_duplicate_branches_rejected(self):
   d=copy.deepcopy(BASE);d['branches'].append(copy.deepcopy(d['branches'][0]));self.assertRaises(ValueError,validate,d,False)
+
+class MetadataFiles(unittest.TestCase):
+ def test_appledouble_is_not_independent_media(self):
+  import project
+  from unittest.mock import patch
+  with tempfile.TemporaryDirectory() as t:
+   m=Path(t);q=m/'qa';q.mkdir();p=q/'._frame.png';p.write_bytes(b'metadata')
+   with patch.object(project,'media',return_value=m):self.assertRaises(ValueError,project.cleanup_plan,[str(p)],'metadata')
+   self.assertTrue(p.exists())
+if __name__=='__main__':unittest.main()
