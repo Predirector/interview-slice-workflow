@@ -1,0 +1,20 @@
+{
+  "kind": "functional-not-aesthetic-baseline",
+  "font": "Noto Sans SC",
+  "fontSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "frames": [
+    0,
+    51,
+    153
+  ],
+  "review": "Actual phone-size images viewed; no real person or natural speech in this test",
+  "files": {
+    "studio-amber-cover.png": "c7c9cdec6e9e2bd4ee79e0adb7110d2fcc4977d8de1eec4e6d46b44a3812a5d3",
+    "studio-amber-body.png": "37bbf8c1eb0ac16e18614e3b66c14a48af064a1f11946db5d29d9b33e3feb7f1",
+    "studio-amber-contact.png": "41672536a124a9e97a7777991f712b804f7e58e0f072824874d4e43ad2456b7d",
+    "editorial-teal-broll-pip.png": "130e44ec7ee17d6ced4163ac4bcff896a2f2eaf3f224344f195177fe46e1358d",
+    "editorial-teal-cover.png": "d822fd017ac066a7e41b6170454567c328c03f8554a7cf0bf010722f51ea3f51",
+    "studio-amber-broll-pip.png": "f8b4f098df122363dc35c04df536177163d47019dc2565943f98263639fe823d",
+    "editorial-teal-body.png": "9589734bfd103b174b6b37e6bd4b69f15140a44d9807a98d93fd7a11682c72f9"
+  }
+}

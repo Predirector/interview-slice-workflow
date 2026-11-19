@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "demo": true,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "coverFrames": 3,
+  "speed": 1.1,
+  "style": "studio-amber",
+  "frameMode": "framed",
+  "title": "功能演示｜从想法到行动",
+  "titleLines": [
+    "从想法到行动",
+    "让改变发生"
+  ],
+  "titleSize": 76,
+  "mediaBox": [
+    90,
+    530,
+    900,
+    675
+  ],
+  "interview": {
+    "name": "演示人物",
+    "role": "功能测试非真实访谈",
+    "context": "自制图形演示",
+    "verified": false
+  },
+  "cover": {
+    "titleLines": [
+      "好的想法",
+      "需要行动"
+    ],
+    "titleSize": 112
+  },
+  "captionSize": 48,
+  "translationSize": 32,
+  "fonts": {
+    "title": {
+      "file": "fonts/NotoSansSC.ttf",
+      "weight": 900,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    "semantic": {
+      "file": "fonts/NotoSansSC.ttf",
+      "weight": 900,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    "caption": {
+      "file": "fonts/NotoSansSC.ttf",
+      "weight": 700,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    }
+  },
+  "source": "demo/source.mp4",
+  "edits": [
+    {
+      "sourceStart": 0,
+      "sourceEnd": 8.8
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 120,
+      "zh": "让想法变成行动",
+      "en": "Turn ideas into action",
+      "zhHighlights": [
+        "行动"
+      ]
+    },
+    {
+      "start": 120,
+      "end": 240,
+      "zh": "用实际变化回答问题",
+      "en": "Let real change answer",
+      "zhHighlights": [
+        "变化"
+      ]
+    }
+  ],
+  "semantic": [
+    {
+      "start": 12,
+      "end": 110,
+      "items": [
+        {
+          "text": "行动",
+          "x": 160,
+          "y": 1150,
+          "size": 142
+        }
+      ]
+    },
+    {
+      "start": 124,
+      "end": 236,
+      "items": [
+        {
+          "text": "看见改变",
+          "x": 160,
+          "y": 1150,
+          "size": 130
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 90,
+      "end": 210,
+      "file": "demo/broll.mp4",
+      "sourceStart": 0,
+      "rate": 1,
+      "purpose": "自制图形仅测试插入功能",
+      "sourceIdentity": "非真实场景的合成测试",
+      "internalCuts": []
+    }
+  ],
+  "pip": [
+    {
+      "start": 120,
+      "end": 180,
+      "box": [
+        720,
+        875,
+        240,
+        180
+      ]
+    }
+  ],
+  "danmaku": [
+    {
+      "start": 20,
+      "duration": 180,
+      "y": 495,
+      "text": "怎样迈出第一步",
+      "size": 36
+    }
+  ],
+  "branches": [
+    {
+      "id": "plain",
+      "danmaku": false
+    },
+    {
+      "id": "discussion",
+      "danmaku": true
+    }
+  ],
+  "faces": [],
+  "music": null,
+  "stages": [
+    {
+      "meaning": "测试从想法到行动的阶段提炼",
+      "brollReason": "自制图形验证替换 同一画框"
+    }
+  ],
+  "sources": [],
+  "overrides": []
+}

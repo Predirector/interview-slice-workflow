@@ -1,0 +1,13 @@
+{
+  "finalSha256": "填写实际成片SHA",
+  "evidence": [
+    {
+      "category": "opening",
+      "artifact": "实际成片文件",
+      "frame": 3,
+      "finding": "实际查看结果",
+      "status": "not-reviewed",
+      "reviewer": "实际操作者"
+    }
+  ]
+}

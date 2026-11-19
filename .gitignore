@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+.slice-tools/
+__pycache__/
+*.pyc
+runtime.local.json
+.env
+.env.*
+validation-work/
+*.mp4
+*.mov
+*.wav
+*.ttf
+*.otf
+.DS_Store

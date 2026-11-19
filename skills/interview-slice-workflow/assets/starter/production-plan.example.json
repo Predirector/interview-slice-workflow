@@ -1,0 +1,31 @@
+{
+  "stages": [
+    {
+      "sourceRange": [
+        0,
+        10
+      ],
+      "verbatim": "对照真实原话填写",
+      "meaning": "这一段的完整核心意思",
+      "transitionFromPrevious": "承接关系",
+      "visualDecision": "person or broll",
+      "reason": "为什么需要真实镜头或不适用",
+      "searchEntityActionContext": "主体 动作 场景 限定",
+      "sourceIdentityVerified": false,
+      "reviewPoints": [
+        "原话和条件",
+        "镜头停留",
+        "回人物完整意群"
+      ]
+    }
+  ],
+  "branchRetention": [],
+  "styleComparison": [
+    "构图",
+    "名字条容器及位置",
+    "提炼字",
+    "背景",
+    "动效",
+    "音乐"
+  ]
+}

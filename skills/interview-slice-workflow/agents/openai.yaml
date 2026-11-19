@@ -1,0 +1,6 @@
+interface:
+  display_name: "访谈切片工作流"
+  short_description: "真实访谈切片的剪辑、双语字幕、视觉包装、素材补充、审片与交付"
+  default_prompt: "使用 $interview-slice-workflow，根据我提供的脚本和原片完成切片，先核对当前要求，再制作、审片并交付可播放视频。"
+policy:
+  allow_implicit_invocation: true

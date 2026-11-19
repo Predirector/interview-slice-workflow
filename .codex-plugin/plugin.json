@@ -1,0 +1,9 @@
+{
+  "name": "interview-slice-workflow",
+  "version": "1.0.0",
+  "description": "真实访谈切片：细则、时间映射、双语字幕、视觉包装、辅助镜头和交付核验",
+  "author": {
+    "name": "Predirector"
+  },
+  "skills": "./skills/"
+}

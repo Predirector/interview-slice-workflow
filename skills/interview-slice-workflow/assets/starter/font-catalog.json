@@ -1,0 +1,12 @@
+{
+  "fonts/NotoSansSC.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "referer": "https://github.com/google/fonts",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "family": "Noto Sans SC",
+    "style": "variable wght",
+    "licensePage": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+    "redistributed": false
+  }
+}
